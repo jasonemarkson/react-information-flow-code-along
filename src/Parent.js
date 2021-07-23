@@ -26,7 +26,7 @@ class Parent extends Component {
         <Child color={this.state.childrenColor} handleColorChange={this.changeColor}/>
       </div>
     )
-  }
+  } 
 }
 
 export default Parent
